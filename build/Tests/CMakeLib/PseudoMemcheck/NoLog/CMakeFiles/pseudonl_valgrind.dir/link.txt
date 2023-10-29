@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\pseudonl_valgrind.dir/objects.a
+D:\mingw\bin\ar.exe qc CMakeFiles\pseudonl_valgrind.dir/objects.a @CMakeFiles\pseudonl_valgrind.dir\objects1.rsp
+D:\mingw\bin\gcc.exe -O3 -DNDEBUG  -Wl,--stack,10000000 -Wl,--whole-archive CMakeFiles\pseudonl_valgrind.dir/objects.a -Wl,--no-whole-archive -o valgrind.exe -Wl,--out-implib,libvalgrind.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\pseudonl_valgrind.dir\linkLibs.rsp

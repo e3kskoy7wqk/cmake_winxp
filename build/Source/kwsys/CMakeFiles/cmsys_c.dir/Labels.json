@@ -1,0 +1,55 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/cmake-3.27.7/Source/kwsys/ProcessWin32.c"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/Source/kwsys/Base64.c"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/Source/kwsys/EncodingC.c"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/Source/kwsys/MD5.c"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/Source/kwsys/Terminal.c"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/Source/kwsys/System.c"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/Source/kwsys/String.c"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/build/Source/cmsys/Configure.h"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/build/Source/cmsys/Process.h"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/build/Source/cmsys/Base64.h"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/build/Source/cmsys/Encoding.h"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/build/Source/cmsys/MD5.h"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/build/Source/cmsys/Terminal.h"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/build/Source/cmsys/System.h"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/build/Source/cmsys/String.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [],
+		"name" : "cmsys_c"
+	}
+}

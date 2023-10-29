@@ -1,0 +1,2 @@
+D:\mingw\bin\ar.exe qc libCMakeGUIMainLib.a CMakeFiles/CMakeGUIMainLib.dir/CMakeSetup.cxx.obj
+D:\mingw\bin\ranlib.exe libCMakeGUIMainLib.a

@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\pseudo_cppcheck.dir/objects.a
+D:\mingw\bin\ar.exe qc CMakeFiles\pseudo_cppcheck.dir/objects.a @CMakeFiles\pseudo_cppcheck.dir\objects1.rsp
+D:\mingw\bin\gcc.exe -O3 -DNDEBUG  -Wl,--stack,10000000 -Wl,--whole-archive CMakeFiles\pseudo_cppcheck.dir/objects.a -Wl,--no-whole-archive -o pseudo_cppcheck.exe -Wl,--out-implib,libpseudo_cppcheck.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\pseudo_cppcheck.dir\linkLibs.rsp

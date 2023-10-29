@@ -1,0 +1,1 @@
+-I"D:/cmake-3.27.7/build/Utilities" -I"D:/cmake-3.27.7/build/Source" -I"D:/cmake-3.27.7/Source" -I"D:/cmake-3.27.7/Source/LexerParser" -isystem "D:/cmake-3.27.7/Utilities/std" -isystem "D:/cmake-3.27.7/Utilities" -isystem D:/dependencies/include

@@ -1,0 +1,2 @@
+D:\mingw\bin\ar.exe qc libcmsys_c.a CMakeFiles/cmsys_c.dir/ProcessWin32.c.obj CMakeFiles/cmsys_c.dir/Base64.c.obj CMakeFiles/cmsys_c.dir/EncodingC.c.obj CMakeFiles/cmsys_c.dir/MD5.c.obj CMakeFiles/cmsys_c.dir/Terminal.c.obj CMakeFiles/cmsys_c.dir/System.c.obj CMakeFiles/cmsys_c.dir/String.c.obj
+D:\mingw\bin\ranlib.exe libcmsys_c.a

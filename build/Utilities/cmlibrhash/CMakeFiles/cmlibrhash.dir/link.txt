@@ -1,0 +1,2 @@
+D:\mingw\bin\ar.exe qc libcmlibrhash.a CMakeFiles/cmlibrhash.dir/librhash/algorithms.c.obj CMakeFiles/cmlibrhash.dir/librhash/byte_order.c.obj CMakeFiles/cmlibrhash.dir/librhash/hex.c.obj CMakeFiles/cmlibrhash.dir/librhash/md5.c.obj CMakeFiles/cmlibrhash.dir/librhash/rhash.c.obj CMakeFiles/cmlibrhash.dir/librhash/sha1.c.obj CMakeFiles/cmlibrhash.dir/librhash/sha256.c.obj CMakeFiles/cmlibrhash.dir/librhash/sha3.c.obj CMakeFiles/cmlibrhash.dir/librhash/sha512.c.obj
+D:\mingw\bin\ranlib.exe libcmlibrhash.a

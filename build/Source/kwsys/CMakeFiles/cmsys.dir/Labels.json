@@ -1,0 +1,121 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/cmake-3.27.7/Source/kwsys/ProcessWin32.c"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/Source/kwsys/Base64.c"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/Source/kwsys/EncodingC.c"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/Source/kwsys/MD5.c"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/Source/kwsys/Terminal.c"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/Source/kwsys/System.c"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/Source/kwsys/String.c"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/build/Source/cmsys/Configure.h"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/build/Source/cmsys/Process.h"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/build/Source/cmsys/Base64.h"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/build/Source/cmsys/Encoding.h"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/build/Source/cmsys/MD5.h"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/build/Source/cmsys/Terminal.h"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/build/Source/cmsys/System.h"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/build/Source/cmsys/String.h"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/Source/kwsys/Directory.cxx"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/build/Source/cmsys/Directory.hxx"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/Source/kwsys/DynamicLoader.cxx"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/build/Source/cmsys/DynamicLoader.hxx"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/Source/kwsys/EncodingCXX.cxx"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/build/Source/cmsys/Encoding.hxx"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/Source/kwsys/Glob.cxx"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/build/Source/cmsys/Glob.hxx"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/Source/kwsys/RegularExpression.cxx"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/build/Source/cmsys/RegularExpression.hxx"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/Source/kwsys/SystemTools.cxx"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/build/Source/cmsys/SystemTools.hxx"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/Source/kwsys/CommandLineArguments.cxx"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/build/Source/cmsys/CommandLineArguments.hxx"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/Source/kwsys/FStream.cxx"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/build/Source/cmsys/FStream.hxx"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/Source/kwsys/SystemInformation.cxx"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/build/Source/cmsys/SystemInformation.hxx"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/build/Source/cmsys/ConsoleBuf.hxx"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/Source/kwsys/Status.cxx"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/build/Source/cmsys/Status.hxx"
+		},
+		{
+			"file" : "D:/cmake-3.27.7/build/Source/cmsys/Configure.hxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [],
+		"name" : "cmsys"
+	}
+}

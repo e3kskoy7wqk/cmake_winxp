@@ -1,0 +1,4 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmsysTestDynloadImpl.dir/objects.a
+D:\mingw\bin\ar.exe qc CMakeFiles\cmsysTestDynloadImpl.dir/objects.a @CMakeFiles\cmsysTestDynloadImpl.dir\objects1.rsp
+D:\mingw\bin\gcc.exe -O3 -DNDEBUG -shared -o dynloaddir\libcmsysTestDynloadImpl.dll -Wl,--out-implib,libcmsysTestDynloadImpl.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\cmsysTestDynloadImpl.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\cmsysTestDynloadImpl.dir\linkLibs.rsp -Wl,--output-def,cmsysTestDynloadImpl.def
+"C:\Program Files\CMake\bin\cmake.exe" -Dlib="D:/cmake-3.27.7/build/CMakeFiles/CMakeGNUtoMS_lib.bat" -Ddef=cmsysTestDynloadImpl.def -Ddll=dynloaddir\libcmsysTestDynloadImpl.dll -Dimp=libcmsysTestDynloadImpl.dll.a -P "C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/GNUtoMS_lib.cmake"

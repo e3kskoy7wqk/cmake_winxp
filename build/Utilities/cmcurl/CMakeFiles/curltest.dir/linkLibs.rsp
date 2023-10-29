@@ -1,0 +1,1 @@
+ lib/libcmcurl.a -lwinmm -lws2_32 D:/dependencies/lib/libz.a ../cmnghttp2/libcmnghttp2.a -ladvapi32 -lcrypt32 -lbcrypt -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

@@ -1,0 +1,140 @@
+Determining if compiler supports C11 _Thread_local passed with the following output:
+Change Dir: 'D:/cmake-3.27.7/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/mingw/bin/mingw32-make.exe -f Makefile cmTC_3e1f8/fast
+D:/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_3e1f8.dir\build.make CMakeFiles/cmTC_3e1f8.dir/build
+mingw32-make[1]: Entering directory 'D:/cmake-3.27.7/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3e1f8.dir/cm_c11_thread_local.c.obj
+D:\mingw\bin\gcc.exe   -std=gnu11 -o CMakeFiles\cmTC_3e1f8.dir\cm_c11_thread_local.c.obj -c D:\cmake-3.27.7\Source\Checks\cm_c11_thread_local.c
+Linking C executable cmTC_3e1f8.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_3e1f8.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_3e1f8.dir/objects.a
+D:\mingw\bin\ar.exe qc CMakeFiles\cmTC_3e1f8.dir/objects.a @CMakeFiles\cmTC_3e1f8.dir\objects1.rsp
+D:\mingw\bin\gcc.exe -Wl,--whole-archive CMakeFiles\cmTC_3e1f8.dir/objects.a -Wl,--no-whole-archive -o cmTC_3e1f8.exe -Wl,--out-implib,libcmTC_3e1f8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_3e1f8.dir\linkLibs.rsp
+mingw32-make[1]: Leaving directory 'D:/cmake-3.27.7/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if compiler supports needed C++17 constructs passed with the following output:
+Change Dir: 'D:/cmake-3.27.7/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/mingw/bin/mingw32-make.exe -f Makefile cmTC_e11f2/fast
+D:/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e11f2.dir\build.make CMakeFiles/cmTC_e11f2.dir/build
+mingw32-make[1]: Entering directory 'D:/cmake-3.27.7/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e11f2.dir/cm_cxx17_check.cpp.obj
+D:\mingw\bin\c++.exe   -std=gnu++17 -o CMakeFiles\cmTC_e11f2.dir\cm_cxx17_check.cpp.obj -c D:\cmake-3.27.7\Source\Checks\cm_cxx17_check.cpp
+Linking CXX executable cmTC_e11f2.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_e11f2.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_e11f2.dir/objects.a
+D:\mingw\bin\ar.exe qc CMakeFiles\cmTC_e11f2.dir/objects.a @CMakeFiles\cmTC_e11f2.dir\objects1.rsp
+D:\mingw\bin\c++.exe -Wl,--whole-archive CMakeFiles\cmTC_e11f2.dir/objects.a -Wl,--no-whole-archive -o cmTC_e11f2.exe -Wl,--out-implib,libcmTC_e11f2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e11f2.dir\linkLibs.rsp
+mingw32-make[1]: Leaving directory 'D:/cmake-3.27.7/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if compiler supports C++ make_unique passed with the following output:
+Change Dir: 'D:/cmake-3.27.7/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/mingw/bin/mingw32-make.exe -f Makefile cmTC_54b0c/fast
+D:/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_54b0c.dir\build.make CMakeFiles/cmTC_54b0c.dir/build
+mingw32-make[1]: Entering directory 'D:/cmake-3.27.7/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_54b0c.dir/cm_cxx_make_unique.cxx.obj
+D:\mingw\bin\c++.exe   -std=gnu++17 -o CMakeFiles\cmTC_54b0c.dir\cm_cxx_make_unique.cxx.obj -c D:\cmake-3.27.7\Source\Checks\cm_cxx_make_unique.cxx
+Linking CXX executable cmTC_54b0c.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_54b0c.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_54b0c.dir/objects.a
+D:\mingw\bin\ar.exe qc CMakeFiles\cmTC_54b0c.dir/objects.a @CMakeFiles\cmTC_54b0c.dir\objects1.rsp
+D:\mingw\bin\c++.exe  -Wl,--stack,10000000  -Wl,--whole-archive CMakeFiles\cmTC_54b0c.dir/objects.a -Wl,--no-whole-archive -o cmTC_54b0c.exe -Wl,--out-implib,libcmTC_54b0c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_54b0c.dir\linkLibs.rsp
+mingw32-make[1]: Leaving directory 'D:/cmake-3.27.7/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing Curl Test HAVE_BOOL_T passed with the following output:
+Change Dir: 'D:/cmake-3.27.7/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/mingw/bin/mingw32-make.exe -f Makefile cmTC_fb876/fast
+D:/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_fb876.dir\build.make CMakeFiles/cmTC_fb876.dir/build
+mingw32-make[1]: Entering directory 'D:/cmake-3.27.7/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fb876.dir/CurlTests.c.obj
+D:\mingw\bin\gcc.exe   -w -DHAVE_BOOL_T  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_WINCRYPT_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_STDDEF_H -std=gnu11 -o CMakeFiles\cmTC_fb876.dir\CurlTests.c.obj -c D:\cmake-3.27.7\Utilities\cmcurl\CMake\CurlTests.c
+Linking C executable cmTC_fb876.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_fb876.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_fb876.dir/objects.a
+D:\mingw\bin\ar.exe qc CMakeFiles\cmTC_fb876.dir/objects.a @CMakeFiles\cmTC_fb876.dir\objects1.rsp
+D:\mingw\bin\gcc.exe  -w -DHAVE_BOOL_T  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_WINCRYPT_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_STDDEF_H  -Wl,--stack,10000000  -Wl,--whole-archive CMakeFiles\cmTC_fb876.dir/objects.a -Wl,--no-whole-archive -o cmTC_fb876.exe -Wl,--out-implib,libcmTC_fb876.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_fb876.dir\linkLibs.rsp
+mingw32-make[1]: Leaving directory 'D:/cmake-3.27.7/build/CMakeFiles/CMakeTmp'
+
+
+Performing Curl Test HAVE_FILE_OFFSET_BITS passed with the following output:
+Change Dir: 'D:/cmake-3.27.7/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/mingw/bin/mingw32-make.exe -f Makefile cmTC_e1f9b/fast
+D:/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e1f9b.dir\build.make CMakeFiles/cmTC_e1f9b.dir/build
+mingw32-make[1]: Entering directory 'D:/cmake-3.27.7/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e1f9b.dir/CurlTests.c.obj
+D:\mingw\bin\gcc.exe   -w -DHAVE_FILE_OFFSET_BITS  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_WINCRYPT_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_STDDEF_H -std=gnu11 -o CMakeFiles\cmTC_e1f9b.dir\CurlTests.c.obj -c D:\cmake-3.27.7\Utilities\cmcurl\CMake\CurlTests.c
+Linking C executable cmTC_e1f9b.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_e1f9b.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_e1f9b.dir/objects.a
+D:\mingw\bin\ar.exe qc CMakeFiles\cmTC_e1f9b.dir/objects.a @CMakeFiles\cmTC_e1f9b.dir\objects1.rsp
+D:\mingw\bin\gcc.exe  -w -DHAVE_FILE_OFFSET_BITS  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_WINCRYPT_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_STDDEF_H  -Wl,--stack,10000000  -Wl,--whole-archive CMakeFiles\cmTC_e1f9b.dir/objects.a -Wl,--no-whole-archive -o cmTC_e1f9b.exe -Wl,--out-implib,libcmTC_e1f9b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e1f9b.dir\linkLibs.rsp
+mingw32-make[1]: Leaving directory 'D:/cmake-3.27.7/build/CMakeFiles/CMakeTmp'
+
+
+Performing Curl Test HAVE_VARIADIC_MACROS_C99 passed with the following output:
+Change Dir: 'D:/cmake-3.27.7/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/mingw/bin/mingw32-make.exe -f Makefile cmTC_9de8a/fast
+D:/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_9de8a.dir\build.make CMakeFiles/cmTC_9de8a.dir/build
+mingw32-make[1]: Entering directory 'D:/cmake-3.27.7/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9de8a.dir/CurlTests.c.obj
+D:\mingw\bin\gcc.exe   -w -DHAVE_VARIADIC_MACROS_C99  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_WINCRYPT_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_STDDEF_H -std=gnu11 -o CMakeFiles\cmTC_9de8a.dir\CurlTests.c.obj -c D:\cmake-3.27.7\Utilities\cmcurl\CMake\CurlTests.c
+Linking C executable cmTC_9de8a.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_9de8a.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_9de8a.dir/objects.a
+D:\mingw\bin\ar.exe qc CMakeFiles\cmTC_9de8a.dir/objects.a @CMakeFiles\cmTC_9de8a.dir\objects1.rsp
+D:\mingw\bin\gcc.exe  -w -DHAVE_VARIADIC_MACROS_C99  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_WINCRYPT_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_STDDEF_H  -Wl,--stack,10000000  -Wl,--whole-archive CMakeFiles\cmTC_9de8a.dir/objects.a -Wl,--no-whole-archive -o cmTC_9de8a.exe -Wl,--out-implib,libcmTC_9de8a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_9de8a.dir\linkLibs.rsp
+mingw32-make[1]: Leaving directory 'D:/cmake-3.27.7/build/CMakeFiles/CMakeTmp'
+
+
+Performing Curl Test HAVE_VARIADIC_MACROS_GCC passed with the following output:
+Change Dir: 'D:/cmake-3.27.7/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/mingw/bin/mingw32-make.exe -f Makefile cmTC_8865a/fast
+D:/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_8865a.dir\build.make CMakeFiles/cmTC_8865a.dir/build
+mingw32-make[1]: Entering directory 'D:/cmake-3.27.7/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8865a.dir/CurlTests.c.obj
+D:\mingw\bin\gcc.exe   -w -DHAVE_VARIADIC_MACROS_GCC  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_WINCRYPT_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_STDDEF_H -std=gnu11 -o CMakeFiles\cmTC_8865a.dir\CurlTests.c.obj -c D:\cmake-3.27.7\Utilities\cmcurl\CMake\CurlTests.c
+Linking C executable cmTC_8865a.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_8865a.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_8865a.dir/objects.a
+D:\mingw\bin\ar.exe qc CMakeFiles\cmTC_8865a.dir/objects.a @CMakeFiles\cmTC_8865a.dir\objects1.rsp
+D:\mingw\bin\gcc.exe  -w -DHAVE_VARIADIC_MACROS_GCC  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_WINCRYPT_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_STDDEF_H  -Wl,--stack,10000000  -Wl,--whole-archive CMakeFiles\cmTC_8865a.dir/objects.a -Wl,--no-whole-archive -o cmTC_8865a.exe -Wl,--out-implib,libcmTC_8865a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_8865a.dir\linkLibs.rsp
+mingw32-make[1]: Leaving directory 'D:/cmake-3.27.7/build/CMakeFiles/CMakeTmp'
+
+
+Performing Curl Test HAVE_CLOCK_GETTIME_MONOTONIC passed with the following output:
+Change Dir: 'D:/cmake-3.27.7/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/mingw/bin/mingw32-make.exe -f Makefile cmTC_1099f/fast
+D:/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_1099f.dir\build.make CMakeFiles/cmTC_1099f.dir/build
+mingw32-make[1]: Entering directory 'D:/cmake-3.27.7/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1099f.dir/CurlTests.c.obj
+D:\mingw\bin\gcc.exe   -w -DHAVE_CLOCK_GETTIME_MONOTONIC  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_WINCRYPT_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_STDDEF_H -std=gnu11 -o CMakeFiles\cmTC_1099f.dir\CurlTests.c.obj -c D:\cmake-3.27.7\Utilities\cmcurl\CMake\CurlTests.c
+Linking C executable cmTC_1099f.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_1099f.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_1099f.dir/objects.a
+D:\mingw\bin\ar.exe qc CMakeFiles\cmTC_1099f.dir/objects.a @CMakeFiles\cmTC_1099f.dir\objects1.rsp
+D:\mingw\bin\gcc.exe  -w -DHAVE_CLOCK_GETTIME_MONOTONIC  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_WINCRYPT_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_STDDEF_H  -Wl,--stack,10000000  -Wl,--whole-archive CMakeFiles\cmTC_1099f.dir/objects.a -Wl,--no-whole-archive -o cmTC_1099f.exe -Wl,--out-implib,libcmTC_1099f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_1099f.dir\linkLibs.rsp
+mingw32-make[1]: Leaving directory 'D:/cmake-3.27.7/build/CMakeFiles/CMakeTmp'
+
+
+Looking for a Fortran compiler passed with the following output:
+-- The Fortran compiler identification is GNU 9.5.0
+-- Detecting Fortran compiler ABI info
+-- Detecting Fortran compiler ABI info - done
+-- Check for working Fortran compiler: D:/mingw/bin/gfortran.exe - skipped
+-- Configuring done (10.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: D:/cmake-3.27.7/build/Tests/CMakeFiles/CheckFortran
+

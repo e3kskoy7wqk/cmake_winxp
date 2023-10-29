@@ -1,0 +1,17 @@
+Determining if compiler supports C++ filesystem failed with the following output:
+Change Dir: 'D:/cmake-3.27.7/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/mingw/bin/mingw32-make.exe -f Makefile cmTC_39c94/fast
+D:/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_39c94.dir\build.make CMakeFiles/cmTC_39c94.dir/build
+mingw32-make[1]: Entering directory 'D:/cmake-3.27.7/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_39c94.dir/cm_cxx_filesystem.cxx.obj
+D:\mingw\bin\c++.exe   -std=gnu++17 -o CMakeFiles\cmTC_39c94.dir\cm_cxx_filesystem.cxx.obj -c D:\cmake-3.27.7\Source\Checks\cm_cxx_filesystem.cxx
+Linking CXX executable cmTC_39c94.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_39c94.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_39c94.dir/objects.a
+D:\mingw\bin\ar.exe qc CMakeFiles\cmTC_39c94.dir/objects.a @CMakeFiles\cmTC_39c94.dir\objects1.rsp
+D:\mingw\bin\c++.exe  -Wl,--stack,10000000  -Wl,--whole-archive CMakeFiles\cmTC_39c94.dir/objects.a -Wl,--no-whole-archive -o cmTC_39c94.exe -Wl,--out-implib,libcmTC_39c94.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_39c94.dir\linkLibs.rsp
+mingw32-make[1]: Leaving directory 'D:/cmake-3.27.7/build/CMakeFiles/CMakeTmp'
+
+
+

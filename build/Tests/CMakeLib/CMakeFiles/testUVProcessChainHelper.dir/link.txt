@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\testUVProcessChainHelper.dir/objects.a
+D:\mingw\bin\ar.exe qc CMakeFiles\testUVProcessChainHelper.dir/objects.a @CMakeFiles\testUVProcessChainHelper.dir\objects1.rsp
+D:\mingw\bin\c++.exe -O3 -DNDEBUG  -Wl,--stack,10000000 -Wl,--whole-archive CMakeFiles\testUVProcessChainHelper.dir/objects.a -Wl,--no-whole-archive -o testUVProcessChainHelper.exe -Wl,--out-implib,libtestUVProcessChainHelper.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\testUVProcessChainHelper.dir\linkLibs.rsp

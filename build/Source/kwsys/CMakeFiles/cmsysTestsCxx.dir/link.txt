@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmsysTestsCxx.dir/objects.a
+D:\mingw\bin\ar.exe qc CMakeFiles\cmsysTestsCxx.dir/objects.a @CMakeFiles\cmsysTestsCxx.dir\objects1.rsp
+D:\mingw\bin\c++.exe -O3 -DNDEBUG  -Wl,--stack,10000000 -Wl,--whole-archive CMakeFiles\cmsysTestsCxx.dir/objects.a -Wl,--no-whole-archive -o cmsysTestsCxx.exe -Wl,--out-implib,libcmsysTestsCxx.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmsysTestsCxx.dir\linkLibs.rsp

@@ -1,0 +1,1 @@
+-I"D:/cmake-3.27.7/Utilities/cmlibarchive/libarchive" -I"D:/cmake-3.27.7/build/Utilities/cmlibarchive" -I"D:/cmake-3.27.7/build/Utilities" -I"D:/cmake-3.27.7/Utilities/cmbzip2" -I"D:/cmake-3.27.7/Utilities/cmliblzma/liblzma/api" -isystem "D:/cmake-3.27.7/Utilities/std" -isystem "D:/cmake-3.27.7/Utilities" -isystem D:/dependencies/include

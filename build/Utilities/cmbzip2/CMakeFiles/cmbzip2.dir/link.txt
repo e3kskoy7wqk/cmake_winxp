@@ -1,0 +1,2 @@
+D:\mingw\bin\ar.exe qc libcmbzip2.a CMakeFiles/cmbzip2.dir/blocksort.c.obj CMakeFiles/cmbzip2.dir/huffman.c.obj CMakeFiles/cmbzip2.dir/crctable.c.obj CMakeFiles/cmbzip2.dir/randtable.c.obj CMakeFiles/cmbzip2.dir/compress.c.obj CMakeFiles/cmbzip2.dir/decompress.c.obj CMakeFiles/cmbzip2.dir/bzlib.c.obj
+D:\mingw\bin\ranlib.exe libcmbzip2.a

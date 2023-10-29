@@ -1,0 +1,3 @@
+EXPORTS
+    TestDynamicLoaderImplData @1 DATA
+    TestDynamicLoaderImplSymbolPointer @2

@@ -1,0 +1,381 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19043 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineFortranCompiler.cmake:179 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+      Compiler: D:/mingw/bin/gfortran.exe 
+      Build flags: 
+      Id flags: -v 
+      
+      The output was:
+      0
+      Driving: D:/mingw/bin/gfortran.exe -v CMakeFortranCompilerId.F -l gfortran -shared-libgcc
+      Using built-in specs.
+      COLLECT_GCC=D:/mingw/bin/gfortran.exe
+      COLLECT_LTO_WRAPPER=d:/mingw/bin/../libexec/gcc/i686-w64-mingw32/9.5.0/lto-wrapper.exe
+      Target: i686-w64-mingw32
+      Configured with: ../configure --prefix=/R/winlibs32_stage/inst_gcc-9.5.0/share/gcc --build=i686-w64-mingw32 --host=i686-w64-mingw32 --with-pkgversion='MinGW-W64 i686-msvcrt-posix-dwarf, built by Brecht Sanders' --with-tune=generic --enable-checking=release --enable-threads=posix --with-dwarf2 --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --disable-libstdcxx-pch --with-mpc=/d/Prog/winlibs32_stage/custombuilt --with-mpfr=/d/Prog/winlibs32_stage/custombuilt --with-gmp=/d/Prog/winlibs32_stage/custombuilt --with-isl=/d/Prog/winlibs32_stage/custombuilt --enable-large-address-aware --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs32_stage/gcc-9.5.0/build_mingw/mingw-w64 CFLAGS='-I/d/Prog/winlibs32_stage/custombuilt/include/libdl-win32 -D__USE_MINGW_ACCESS' CXXFLAGS=-D__USE_MINGW_ACCESS LDFLAGS='-Wl,--disable-nxcompat  -Wl,--disable-dynamicbase'
+      Thread model: posix
+      gcc version 9.5.0 (MinGW-W64 i686-msvcrt-posix-dwarf, built by Brecht Sanders) 
+      COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=pentiumpro'
+       d:/mingw/bin/../libexec/gcc/i686-w64-mingw32/9.5.0/f951.exe CMakeFortranCompilerId.F -ffixed-form -cpp=C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\ccnbQlP3.f90 -quiet -v -iprefix d:\\mingw\\bin\\../lib/gcc/i686-w64-mingw32/9.5.0/ -D_REENTRANT CMakeFortranCompilerId.F -quiet -dumpbase CMakeFortranCompilerId.F -mtune=generic -march=pentiumpro -auxbase CMakeFortranCompilerId -version -fintrinsic-modules-path d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/finclude -o C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\ccgkVVmX.s
+      GNU Fortran (MinGW-W64 i686-msvcrt-posix-dwarf, built by Brecht Sanders) version 9.5.0 (i686-w64-mingw32)
+      	compiled by GNU C version 9.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version UNKNOWN-GMP
+      
+      GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+      ignoring duplicate directory "d:/mingw/lib/gcc/../../lib/gcc/i686-w64-mingw32/9.5.0/include"
+      ignoring nonexistent directory "R:/winlibs32_stage/inst_gcc-9.5.0/share/gcc/include"
+      ignoring nonexistent directory "/R/winlibs32_stage/inst_gcc-9.5.0/share/gcc/include"
+      ignoring duplicate directory "d:/mingw/lib/gcc/../../lib/gcc/i686-w64-mingw32/9.5.0/include-fixed"
+      ignoring duplicate directory "d:/mingw/lib/gcc/../../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/include"
+      ignoring duplicate directory "/mingw/include"
+      #include "..." search starts here:
+      #include <...> search starts here:
+       d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/finclude
+       d:\\mingw\\bin\\../lib/gcc/i686-w64-mingw32/9.5.0/include
+       d:\\mingw\\bin\\../lib/gcc/i686-w64-mingw32/9.5.0/../../../../include
+       d:\\mingw\\bin\\../lib/gcc/i686-w64-mingw32/9.5.0/include-fixed
+       d:\\mingw\\bin\\../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/include
+      End of search list.
+      GNU Fortran2008 (MinGW-W64 i686-msvcrt-posix-dwarf, built by Brecht Sanders) version 9.5.0 (i686-w64-mingw32)
+      	compiled by GNU C version 9.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version UNKNOWN-GMP
+      
+      GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+      COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=pentiumpro'
+       d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/bin/as.exe -v -o C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\ccOZMqem.o C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\ccgkVVmX.s
+      GNU assembler version 2.39 (i686-w64-mingw32) using BFD version (Binutils for MinGW-W64 i686, built by Brecht Sanders) 2.39
+      Reading specs from d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../lib/libgfortran.spec
+      rename spec lib to liborig
+      COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=pentiumpro'
+      COMPILER_PATH=d:/mingw/bin/../libexec/gcc/i686-w64-mingw32/9.5.0/;d:/mingw/bin/../libexec/gcc/;d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/bin/
+      LIBRARY_PATH=d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/;d:/mingw/bin/../lib/gcc/;d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/lib/../lib/;d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../lib/;/mingw/lib/../lib/;d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/lib/;d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../;/mingw/lib/
+      COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=pentiumpro'
+       d:/mingw/bin/../libexec/gcc/i686-w64-mingw32/9.5.0/collect2.exe -plugin d:/mingw/bin/../libexec/gcc/i686-w64-mingw32/9.5.0/liblto_plugin-0.dll -plugin-opt=d:/mingw/bin/../libexec/gcc/i686-w64-mingw32/9.5.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\cc4t1FT3.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pe -Bdynamic --large-address-aware -u ___register_frame_info -u ___deregister_frame_info d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/crtbegin.o -Ld:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0 -Ld:/mingw/bin/../lib/gcc -Ld:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/lib/../lib -Ld:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../lib -L/mingw/lib/../lib -Ld:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/lib -Ld:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../.. -L/mingw/lib C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\ccOZMqem.o -lgfortran -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lquadmath -lm -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/crtend.o
+      COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=pentiumpro'
+      
+      
+      Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.exe"
+      
+      The Fortran compiler identification is GNU, found in:
+        D:/cmake-3.27.7/build/Tests/CMakeFiles/CheckFortran/CMakeFiles/3.27.7/CompilerIdFortran/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestFortranCompiler.cmake:20 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting Fortran compiler ABI info"
+    directories:
+      source: "D:/cmake-3.27.7/build/Tests/CMakeFiles/CheckFortran/CMakeFiles/CMakeScratch/TryCompile-oubro5"
+      binary: "D:/cmake-3.27.7/build/Tests/CMakeFiles/CheckFortran/CMakeFiles/CMakeScratch/TryCompile-oubro5"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_Fortran_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/cmake-3.27.7/build/Tests/CMakeFiles/CheckFortran/CMakeFiles/CMakeScratch/TryCompile-oubro5'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/mingw/bin/mingw32-make.exe -f Makefile cmTC_34510/fast
+        D:/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_34510.dir\\build.make CMakeFiles/cmTC_34510.dir/build
+        mingw32-make[1]: Entering directory 'D:/cmake-3.27.7/build/Tests/CMakeFiles/CheckFortran/CMakeFiles/CMakeScratch/TryCompile-oubro5'
+        Building Fortran object CMakeFiles/cmTC_34510.dir/CMakeFortranCompilerABI.F90.obj
+        D:\\mingw\\bin\\gfortran.exe   -v -c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeFortranCompilerABI.F90" -o CMakeFiles\\cmTC_34510.dir\\CMakeFortranCompilerABI.F90.obj
+        Using built-in specs.
+        COLLECT_GCC=D:\\mingw\\bin\\gfortran.exe
+        Target: i686-w64-mingw32
+        Configured with: ../configure --prefix=/R/winlibs32_stage/inst_gcc-9.5.0/share/gcc --build=i686-w64-mingw32 --host=i686-w64-mingw32 --with-pkgversion='MinGW-W64 i686-msvcrt-posix-dwarf, built by Brecht Sanders' --with-tune=generic --enable-checking=release --enable-threads=posix --with-dwarf2 --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --disable-libstdcxx-pch --with-mpc=/d/Prog/winlibs32_stage/custombuilt --with-mpfr=/d/Prog/winlibs32_stage/custombuilt --with-gmp=/d/Prog/winlibs32_stage/custombuilt --with-isl=/d/Prog/winlibs32_stage/custombuilt --enable-large-address-aware --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs32_stage/gcc-9.5.0/build_mingw/mingw-w64 CFLAGS='-I/d/Prog/winlibs32_stage/custombuilt/include/libdl-win32 -D__USE_MINGW_ACCESS' CXXFLAGS=-D__USE_MINGW_ACCESS LDFLAGS='-Wl,--disable-nxcompat  -Wl,--disable-dynamicbase'
+        Thread model: posix
+        gcc version 9.5.0 (MinGW-W64 i686-msvcrt-posix-dwarf, built by Brecht Sanders) 
+        COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles\\cmTC_34510.dir\\CMakeFortranCompilerABI.F90.obj' '-mtune=generic' '-march=pentiumpro'
+         d:/mingw/bin/../libexec/gcc/i686-w64-mingw32/9.5.0/f951.exe C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeFortranCompilerABI.F90 -cpp=C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\ccQADHyM.f90 -quiet -v -iprefix d:\\mingw\\bin\\../lib/gcc/i686-w64-mingw32/9.5.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeFortranCompilerABI.F90 -quiet -dumpbase CMakeFortranCompilerABI.F90 -mtune=generic -march=pentiumpro -auxbase-strip CMakeFiles\\cmTC_34510.dir\\CMakeFortranCompilerABI.F90.obj -version -fintrinsic-modules-path d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/finclude -o C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\ccaG9Cbp.s
+        GNU Fortran (MinGW-W64 i686-msvcrt-posix-dwarf, built by Brecht Sanders) version 9.5.0 (i686-w64-mingw32)
+        	compiled by GNU C version 9.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version UNKNOWN-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "d:/mingw/lib/gcc/../../lib/gcc/i686-w64-mingw32/9.5.0/include"
+        ignoring nonexistent directory "R:/winlibs32_stage/inst_gcc-9.5.0/share/gcc/include"
+        ignoring nonexistent directory "/R/winlibs32_stage/inst_gcc-9.5.0/share/gcc/include"
+        ignoring duplicate directory "d:/mingw/lib/gcc/../../lib/gcc/i686-w64-mingw32/9.5.0/include-fixed"
+        ignoring duplicate directory "d:/mingw/lib/gcc/../../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/include"
+        ignoring duplicate directory "/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/finclude
+         d:\\mingw\\bin\\../lib/gcc/i686-w64-mingw32/9.5.0/include
+         d:\\mingw\\bin\\../lib/gcc/i686-w64-mingw32/9.5.0/../../../../include
+         d:\\mingw\\bin\\../lib/gcc/i686-w64-mingw32/9.5.0/include-fixed
+         d:\\mingw\\bin\\../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/include
+        End of search list.
+        GNU Fortran2008 (MinGW-W64 i686-msvcrt-posix-dwarf, built by Brecht Sanders) version 9.5.0 (i686-w64-mingw32)
+        	compiled by GNU C version 9.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version UNKNOWN-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles\\cmTC_34510.dir\\CMakeFortranCompilerABI.F90.obj' '-mtune=generic' '-march=pentiumpro'
+         d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_34510.dir\\CMakeFortranCompilerABI.F90.obj C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\ccaG9Cbp.s
+        GNU assembler version 2.39 (i686-w64-mingw32) using BFD version (Binutils for MinGW-W64 i686, built by Brecht Sanders) 2.39
+        COMPILER_PATH=d:/mingw/bin/../libexec/gcc/i686-w64-mingw32/9.5.0/;d:/mingw/bin/../libexec/gcc/;d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/bin/
+        LIBRARY_PATH=d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/;d:/mingw/bin/../lib/gcc/;d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/lib/../lib/;d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../lib/;/mingw/lib/../lib/;d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/lib/;d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../;/mingw/lib/
+        COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles\\cmTC_34510.dir\\CMakeFortranCompilerABI.F90.obj' '-mtune=generic' '-march=pentiumpro'
+        Linking Fortran executable cmTC_34510.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_34510.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_34510.dir/objects.a
+        D:\\mingw\\bin\\ar.exe qc CMakeFiles\\cmTC_34510.dir/objects.a @CMakeFiles\\cmTC_34510.dir\\objects1.rsp
+        D:\\mingw\\bin\\gfortran.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_34510.dir/objects.a -Wl,--no-whole-archive -o cmTC_34510.exe -Wl,--out-implib,libcmTC_34510.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        Driving: D:\\mingw\\bin\\gfortran.exe -v -Wl,--whole-archive CMakeFiles\\cmTC_34510.dir/objects.a -Wl,--no-whole-archive -o cmTC_34510.exe -Wl,--out-implib,libcmTC_34510.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -l gfortran -shared-libgcc
+        Using built-in specs.
+        COLLECT_GCC=D:\\mingw\\bin\\gfortran.exe
+        COLLECT_LTO_WRAPPER=d:/mingw/bin/../libexec/gcc/i686-w64-mingw32/9.5.0/lto-wrapper.exe
+        Target: i686-w64-mingw32
+        Configured with: ../configure --prefix=/R/winlibs32_stage/inst_gcc-9.5.0/share/gcc --build=i686-w64-mingw32 --host=i686-w64-mingw32 --with-pkgversion='MinGW-W64 i686-msvcrt-posix-dwarf, built by Brecht Sanders' --with-tune=generic --enable-checking=release --enable-threads=posix --with-dwarf2 --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --disable-libstdcxx-pch --with-mpc=/d/Prog/winlibs32_stage/custombuilt --with-mpfr=/d/Prog/winlibs32_stage/custombuilt --with-gmp=/d/Prog/winlibs32_stage/custombuilt --with-isl=/d/Prog/winlibs32_stage/custombuilt --enable-large-address-aware --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs32_stage/gcc-9.5.0/build_mingw/mingw-w64 CFLAGS='-I/d/Prog/winlibs32_stage/custombuilt/include/libdl-win32 -D__USE_MINGW_ACCESS' CXXFLAGS=-D__USE_MINGW_ACCESS LDFLAGS='-Wl,--disable-nxcompat  -Wl,--disable-dynamicbase'
+        Thread model: posix
+        gcc version 9.5.0 (MinGW-W64 i686-msvcrt-posix-dwarf, built by Brecht Sanders) 
+        Reading specs from d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../lib/libgfortran.spec
+        rename spec lib to liborig
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_34510.exe' '-shared-libgcc' '-mtune=generic' '-march=pentiumpro'
+        COMPILER_PATH=d:/mingw/bin/../libexec/gcc/i686-w64-mingw32/9.5.0/;d:/mingw/bin/../libexec/gcc/;d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/bin/
+        LIBRARY_PATH=d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/;d:/mingw/bin/../lib/gcc/;d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/lib/../lib/;d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../lib/;/mingw/lib/../lib/;d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/lib/;d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../;/mingw/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_34510.exe' '-shared-libgcc' '-mtune=generic' '-march=pentiumpro'
+         d:/mingw/bin/../libexec/gcc/i686-w64-mingw32/9.5.0/collect2.exe -plugin d:/mingw/bin/../libexec/gcc/i686-w64-mingw32/9.5.0/liblto_plugin-0.dll -plugin-opt=d:/mingw/bin/../libexec/gcc/i686-w64-mingw32/9.5.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\ccIjWxc5.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pe -Bdynamic --large-address-aware -u ___register_frame_info -u ___deregister_frame_info -o cmTC_34510.exe d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/crtbegin.o -Ld:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0 -Ld:/mingw/bin/../lib/gcc -Ld:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/lib/../lib -Ld:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../lib -L/mingw/lib/../lib -Ld:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/lib -Ld:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../.. -L/mingw/lib --whole-archive CMakeFiles\\cmTC_34510.dir/objects.a --no-whole-archive --out-implib libcmTC_34510.dll.a --major-image-version 0 --minor-image-version 0 -lgfortran -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lquadmath -lm -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_34510.exe' '-shared-libgcc' '-mtune=generic' '-march=pentiumpro'
+        mingw32-make[1]: Leaving directory 'D:/cmake-3.27.7/build/Tests/CMakeFiles/CheckFortran/CMakeFiles/CMakeScratch/TryCompile-oubro5'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestFortranCompiler.cmake:20 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed Fortran implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/finclude]
+          add: [d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/include]
+          add: [d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../include]
+          add: [d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/include-fixed]
+          add: [d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/include]
+        end of search list found
+        collapse include dir [d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/finclude] ==> [D:/mingw/lib/gcc/i686-w64-mingw32/9.5.0/finclude]
+        collapse include dir [d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/include] ==> [D:/mingw/lib/gcc/i686-w64-mingw32/9.5.0/include]
+        collapse include dir [d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../include] ==> [D:/mingw/include]
+        collapse include dir [d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/include-fixed] ==> [D:/mingw/lib/gcc/i686-w64-mingw32/9.5.0/include-fixed]
+        collapse include dir [d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/include] ==> [D:/mingw/i686-w64-mingw32/include]
+        implicit include dirs: [D:/mingw/lib/gcc/i686-w64-mingw32/9.5.0/finclude;D:/mingw/lib/gcc/i686-w64-mingw32/9.5.0/include;D:/mingw/include;D:/mingw/lib/gcc/i686-w64-mingw32/9.5.0/include-fixed;D:/mingw/i686-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestFortranCompiler.cmake:20 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed Fortran implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'D:/cmake-3.27.7/build/Tests/CMakeFiles/CheckFortran/CMakeFiles/CMakeScratch/TryCompile-oubro5']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/mingw/bin/mingw32-make.exe -f Makefile cmTC_34510/fast]
+        ignore line: [D:/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_34510.dir\\build.make CMakeFiles/cmTC_34510.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'D:/cmake-3.27.7/build/Tests/CMakeFiles/CheckFortran/CMakeFiles/CMakeScratch/TryCompile-oubro5']
+        ignore line: [Building Fortran object CMakeFiles/cmTC_34510.dir/CMakeFortranCompilerABI.F90.obj]
+        ignore line: [D:\\mingw\\bin\\gfortran.exe   -v -c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeFortranCompilerABI.F90" -o CMakeFiles\\cmTC_34510.dir\\CMakeFortranCompilerABI.F90.obj]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\mingw\\bin\\gfortran.exe]
+        ignore line: [Target: i686-w64-mingw32]
+        ignore line: [Configured with: ../configure --prefix=/R/winlibs32_stage/inst_gcc-9.5.0/share/gcc --build=i686-w64-mingw32 --host=i686-w64-mingw32 --with-pkgversion='MinGW-W64 i686-msvcrt-posix-dwarf, built by Brecht Sanders' --with-tune=generic --enable-checking=release --enable-threads=posix --with-dwarf2 --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --disable-libstdcxx-pch --with-mpc=/d/Prog/winlibs32_stage/custombuilt --with-mpfr=/d/Prog/winlibs32_stage/custombuilt --with-gmp=/d/Prog/winlibs32_stage/custombuilt --with-isl=/d/Prog/winlibs32_stage/custombuilt --enable-large-address-aware --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs32_stage/gcc-9.5.0/build_mingw/mingw-w64 CFLAGS='-I/d/Prog/winlibs32_stage/custombuilt/include/libdl-win32 -D__USE_MINGW_ACCESS' CXXFLAGS=-D__USE_MINGW_ACCESS LDFLAGS='-Wl,--disable-nxcompat  -Wl,--disable-dynamicbase']
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 9.5.0 (MinGW-W64 i686-msvcrt-posix-dwarf  built by Brecht Sanders) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles\\cmTC_34510.dir\\CMakeFortranCompilerABI.F90.obj' '-mtune=generic' '-march=pentiumpro']
+        ignore line: [ d:/mingw/bin/../libexec/gcc/i686-w64-mingw32/9.5.0/f951.exe C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeFortranCompilerABI.F90 -cpp=C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\ccQADHyM.f90 -quiet -v -iprefix d:\\mingw\\bin\\../lib/gcc/i686-w64-mingw32/9.5.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeFortranCompilerABI.F90 -quiet -dumpbase CMakeFortranCompilerABI.F90 -mtune=generic -march=pentiumpro -auxbase-strip CMakeFiles\\cmTC_34510.dir\\CMakeFortranCompilerABI.F90.obj -version -fintrinsic-modules-path d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/finclude -o C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\ccaG9Cbp.s]
+        ignore line: [GNU Fortran (MinGW-W64 i686-msvcrt-posix-dwarf  built by Brecht Sanders) version 9.5.0 (i686-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 9.5.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version UNKNOWN-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "d:/mingw/lib/gcc/../../lib/gcc/i686-w64-mingw32/9.5.0/include"]
+        ignore line: [ignoring nonexistent directory "R:/winlibs32_stage/inst_gcc-9.5.0/share/gcc/include"]
+        ignore line: [ignoring nonexistent directory "/R/winlibs32_stage/inst_gcc-9.5.0/share/gcc/include"]
+        ignore line: [ignoring duplicate directory "d:/mingw/lib/gcc/../../lib/gcc/i686-w64-mingw32/9.5.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "d:/mingw/lib/gcc/../../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/include"]
+        ignore line: [ignoring duplicate directory "/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/finclude]
+        ignore line: [ d:\\mingw\\bin\\../lib/gcc/i686-w64-mingw32/9.5.0/include]
+        ignore line: [ d:\\mingw\\bin\\../lib/gcc/i686-w64-mingw32/9.5.0/../../../../include]
+        ignore line: [ d:\\mingw\\bin\\../lib/gcc/i686-w64-mingw32/9.5.0/include-fixed]
+        ignore line: [ d:\\mingw\\bin\\../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU Fortran2008 (MinGW-W64 i686-msvcrt-posix-dwarf  built by Brecht Sanders) version 9.5.0 (i686-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 9.5.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version UNKNOWN-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles\\cmTC_34510.dir\\CMakeFortranCompilerABI.F90.obj' '-mtune=generic' '-march=pentiumpro']
+        ignore line: [ d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_34510.dir\\CMakeFortranCompilerABI.F90.obj C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\ccaG9Cbp.s]
+        ignore line: [GNU assembler version 2.39 (i686-w64-mingw32) using BFD version (Binutils for MinGW-W64 i686  built by Brecht Sanders) 2.39]
+        ignore line: [COMPILER_PATH=d:/mingw/bin/../libexec/gcc/i686-w64-mingw32/9.5.0/]
+        ignore line: [d:/mingw/bin/../libexec/gcc/]
+        ignore line: [d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/]
+        ignore line: [d:/mingw/bin/../lib/gcc/]
+        ignore line: [d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/lib/../lib/]
+        ignore line: [d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../lib/]
+        ignore line: [/mingw/lib/../lib/]
+        ignore line: [d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/lib/]
+        ignore line: [d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../]
+        ignore line: [/mingw/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles\\cmTC_34510.dir\\CMakeFortranCompilerABI.F90.obj' '-mtune=generic' '-march=pentiumpro']
+        ignore line: [Linking Fortran executable cmTC_34510.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_34510.dir\\link.txt --verbose=1]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_34510.dir/objects.a]
+        ignore line: [D:\\mingw\\bin\\ar.exe qc CMakeFiles\\cmTC_34510.dir/objects.a @CMakeFiles\\cmTC_34510.dir\\objects1.rsp]
+        ignore line: [D:\\mingw\\bin\\gfortran.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_34510.dir/objects.a -Wl --no-whole-archive -o cmTC_34510.exe -Wl --out-implib libcmTC_34510.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [Driving: D:\\mingw\\bin\\gfortran.exe -v -Wl --whole-archive CMakeFiles\\cmTC_34510.dir/objects.a -Wl --no-whole-archive -o cmTC_34510.exe -Wl --out-implib libcmTC_34510.dll.a -Wl --major-image-version 0 --minor-image-version 0 -l gfortran -shared-libgcc]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\mingw\\bin\\gfortran.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=d:/mingw/bin/../libexec/gcc/i686-w64-mingw32/9.5.0/lto-wrapper.exe]
+        ignore line: [Target: i686-w64-mingw32]
+        ignore line: [Configured with: ../configure --prefix=/R/winlibs32_stage/inst_gcc-9.5.0/share/gcc --build=i686-w64-mingw32 --host=i686-w64-mingw32 --with-pkgversion='MinGW-W64 i686-msvcrt-posix-dwarf, built by Brecht Sanders' --with-tune=generic --enable-checking=release --enable-threads=posix --with-dwarf2 --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --disable-libstdcxx-pch --with-mpc=/d/Prog/winlibs32_stage/custombuilt --with-mpfr=/d/Prog/winlibs32_stage/custombuilt --with-gmp=/d/Prog/winlibs32_stage/custombuilt --with-isl=/d/Prog/winlibs32_stage/custombuilt --enable-large-address-aware --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs32_stage/gcc-9.5.0/build_mingw/mingw-w64 CFLAGS='-I/d/Prog/winlibs32_stage/custombuilt/include/libdl-win32 -D__USE_MINGW_ACCESS' CXXFLAGS=-D__USE_MINGW_ACCESS LDFLAGS='-Wl,--disable-nxcompat  -Wl,--disable-dynamicbase']
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 9.5.0 (MinGW-W64 i686-msvcrt-posix-dwarf  built by Brecht Sanders) ]
+        ignore line: [Reading specs from d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../lib/libgfortran.spec]
+        ignore line: [rename spec lib to liborig]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_34510.exe' '-shared-libgcc' '-mtune=generic' '-march=pentiumpro']
+        ignore line: [COMPILER_PATH=d:/mingw/bin/../libexec/gcc/i686-w64-mingw32/9.5.0/]
+        ignore line: [d:/mingw/bin/../libexec/gcc/]
+        ignore line: [d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/]
+        ignore line: [d:/mingw/bin/../lib/gcc/]
+        ignore line: [d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/lib/../lib/]
+        ignore line: [d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../lib/]
+        ignore line: [/mingw/lib/../lib/]
+        ignore line: [d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/lib/]
+        ignore line: [d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../]
+        ignore line: [/mingw/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_34510.exe' '-shared-libgcc' '-mtune=generic' '-march=pentiumpro']
+        link line: [ d:/mingw/bin/../libexec/gcc/i686-w64-mingw32/9.5.0/collect2.exe -plugin d:/mingw/bin/../libexec/gcc/i686-w64-mingw32/9.5.0/liblto_plugin-0.dll -plugin-opt=d:/mingw/bin/../libexec/gcc/i686-w64-mingw32/9.5.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\ccIjWxc5.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pe -Bdynamic --large-address-aware -u ___register_frame_info -u ___deregister_frame_info -o cmTC_34510.exe d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/crtbegin.o -Ld:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0 -Ld:/mingw/bin/../lib/gcc -Ld:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/lib/../lib -Ld:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../lib -L/mingw/lib/../lib -Ld:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/lib -Ld:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../.. -L/mingw/lib --whole-archive CMakeFiles\\cmTC_34510.dir/objects.a --no-whole-archive --out-implib libcmTC_34510.dll.a --major-image-version 0 --minor-image-version 0 -lgfortran -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lquadmath -lm -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/crtend.o]
+          arg [d:/mingw/bin/../libexec/gcc/i686-w64-mingw32/9.5.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [d:/mingw/bin/../libexec/gcc/i686-w64-mingw32/9.5.0/liblto_plugin-0.dll] ==> ignore
+          arg [-plugin-opt=d:/mingw/bin/../libexec/gcc/i686-w64-mingw32/9.5.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\ccIjWxc5.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lquadmath] ==> ignore
+          arg [-plugin-opt=-pass-through=-lm] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pe] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [--large-address-aware] ==> ignore
+          arg [-u] ==> ignore
+          arg [___register_frame_info] ==> ignore
+          arg [-u] ==> ignore
+          arg [___deregister_frame_info] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_34510.exe] ==> ignore
+          arg [d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o] ==> obj [d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o]
+          arg [d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/crtbegin.o] ==> obj [d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/crtbegin.o]
+          arg [-Ld:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0] ==> dir [d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0]
+          arg [-Ld:/mingw/bin/../lib/gcc] ==> dir [d:/mingw/bin/../lib/gcc]
+          arg [-Ld:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/lib/../lib] ==> dir [d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/lib/../lib]
+          arg [-Ld:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../lib] ==> dir [d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../lib]
+          arg [-L/mingw/lib/../lib] ==> dir [/mingw/lib/../lib]
+          arg [-Ld:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/lib] ==> dir [d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/lib]
+          arg [-Ld:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../..] ==> dir [d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../..]
+          arg [-L/mingw/lib] ==> dir [/mingw/lib]
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_34510.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_34510.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lgfortran] ==> lib [gfortran]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lquadmath] ==> lib [quadmath]
+          arg [-lm] ==> lib [m]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/crtend.o] ==> obj [d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/crtend.o]
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o] ==> [D:/mingw/i686-w64-mingw32/lib/crt2.o]
+        collapse obj [d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/crtbegin.o] ==> [D:/mingw/lib/gcc/i686-w64-mingw32/9.5.0/crtbegin.o]
+        collapse obj [d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/crtend.o] ==> [D:/mingw/lib/gcc/i686-w64-mingw32/9.5.0/crtend.o]
+        collapse library dir [d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0] ==> [D:/mingw/lib/gcc/i686-w64-mingw32/9.5.0]
+        collapse library dir [d:/mingw/bin/../lib/gcc] ==> [D:/mingw/lib/gcc]
+        collapse library dir [d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/lib/../lib] ==> [D:/mingw/i686-w64-mingw32/lib]
+        collapse library dir [d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../lib] ==> [D:/mingw/lib]
+        collapse library dir [/mingw/lib/../lib] ==> [/mingw/lib]
+        collapse library dir [d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../../../i686-w64-mingw32/lib] ==> [D:/mingw/i686-w64-mingw32/lib]
+        collapse library dir [d:/mingw/bin/../lib/gcc/i686-w64-mingw32/9.5.0/../../..] ==> [D:/mingw/lib]
+        collapse library dir [/mingw/lib] ==> [/mingw/lib]
+        implicit libs: [gfortran;mingw32;gcc_s;gcc;moldname;mingwex;quadmath;m;mingw32;gcc_s;gcc;moldname;mingwex;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc_s;gcc;moldname;mingwex]
+        implicit objs: [D:/mingw/i686-w64-mingw32/lib/crt2.o;D:/mingw/lib/gcc/i686-w64-mingw32/9.5.0/crtbegin.o;D:/mingw/lib/gcc/i686-w64-mingw32/9.5.0/crtend.o]
+        implicit dirs: [D:/mingw/lib/gcc/i686-w64-mingw32/9.5.0;D:/mingw/lib/gcc;D:/mingw/i686-w64-mingw32/lib;D:/mingw/lib;/mingw/lib]
+        implicit fwks: []
+      
+      
+...

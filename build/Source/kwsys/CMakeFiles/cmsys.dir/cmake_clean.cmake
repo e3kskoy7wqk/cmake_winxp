@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/cmsys.dir/Base64.c.obj"
+  "CMakeFiles/cmsys.dir/Base64.c.obj.d"
+  "CMakeFiles/cmsys.dir/CommandLineArguments.cxx.obj"
+  "CMakeFiles/cmsys.dir/CommandLineArguments.cxx.obj.d"
+  "CMakeFiles/cmsys.dir/Directory.cxx.obj"
+  "CMakeFiles/cmsys.dir/Directory.cxx.obj.d"
+  "CMakeFiles/cmsys.dir/DynamicLoader.cxx.obj"
+  "CMakeFiles/cmsys.dir/DynamicLoader.cxx.obj.d"
+  "CMakeFiles/cmsys.dir/EncodingC.c.obj"
+  "CMakeFiles/cmsys.dir/EncodingC.c.obj.d"
+  "CMakeFiles/cmsys.dir/EncodingCXX.cxx.obj"
+  "CMakeFiles/cmsys.dir/EncodingCXX.cxx.obj.d"
+  "CMakeFiles/cmsys.dir/FStream.cxx.obj"
+  "CMakeFiles/cmsys.dir/FStream.cxx.obj.d"
+  "CMakeFiles/cmsys.dir/Glob.cxx.obj"
+  "CMakeFiles/cmsys.dir/Glob.cxx.obj.d"
+  "CMakeFiles/cmsys.dir/MD5.c.obj"
+  "CMakeFiles/cmsys.dir/MD5.c.obj.d"
+  "CMakeFiles/cmsys.dir/ProcessWin32.c.obj"
+  "CMakeFiles/cmsys.dir/ProcessWin32.c.obj.d"
+  "CMakeFiles/cmsys.dir/RegularExpression.cxx.obj"
+  "CMakeFiles/cmsys.dir/RegularExpression.cxx.obj.d"
+  "CMakeFiles/cmsys.dir/Status.cxx.obj"
+  "CMakeFiles/cmsys.dir/Status.cxx.obj.d"
+  "CMakeFiles/cmsys.dir/String.c.obj"
+  "CMakeFiles/cmsys.dir/String.c.obj.d"
+  "CMakeFiles/cmsys.dir/System.c.obj"
+  "CMakeFiles/cmsys.dir/System.c.obj.d"
+  "CMakeFiles/cmsys.dir/SystemInformation.cxx.obj"
+  "CMakeFiles/cmsys.dir/SystemInformation.cxx.obj.d"
+  "CMakeFiles/cmsys.dir/SystemTools.cxx.obj"
+  "CMakeFiles/cmsys.dir/SystemTools.cxx.obj.d"
+  "CMakeFiles/cmsys.dir/Terminal.c.obj"
+  "CMakeFiles/cmsys.dir/Terminal.c.obj.d"
+  "libcmsys.a"
+  "libcmsys.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C CXX)
+  include(CMakeFiles/cmsys.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
